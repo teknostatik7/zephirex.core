@@ -1,7 +1,7 @@
 # Zephirex.Core
 Coinbase Pro Trading bot
 
-Very early stages of development yet robust, currently trades in small or large increments, safe parameters allow you to monitor each individual trade live. Reports must be pulled separately to affirm efficiency and monitor risk.
+Robust and stable automated trading software, currently trades in small or large increments, safe parameters allow you to monitor each individual trade live. Reports are still in development and thus must be pulled directly from Coinbase Pro to affirm efficiency and monitor risk.
 
 Instructions:
 
