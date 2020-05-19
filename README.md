@@ -1,7 +1,7 @@
 # zephirex.core
 Coinbase Pro Trading bot
 
-Very early stages of development, currently trades in small increments and reports are pulled separately for confirmation that the program is creating a profit.
+Very early stages of development yet robust, currently trades in small or large increments, safe parameters allow you to monitor each individual trade live. Reports must be pulled separately to affirm efficiency and monitor risk.
 
 Instructions:
 
