@@ -6,7 +6,7 @@ Robust and stable automated trading software, currently trades in small or large
 
 Important: To eliminate the need for tracking existing orders as well as providing the element of surprise, our software performs TAKER orders only, later versions will provide the option for MAKER orders and order management system.
 
-Instructions:
+## Instructions:
 
 - Create Coinbase Pro API key with View and Trade permissions ONLY and whitelist host IP address.
 - Configuration in app.js serves the following usages:
@@ -15,7 +15,7 @@ Instructions:
     3. Specify currency pairs the software will monitor via websocket.
    
    
-Requirements:
+## Requirements:
 
 - Node.JS
 - NPM
