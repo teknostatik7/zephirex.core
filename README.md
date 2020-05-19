@@ -24,4 +24,4 @@ Important: To eliminate the need for tracking existing orders as well as providi
 - nodemailer NPM
 
 v2.2 is currently under development but will introduce the advantage of delivering daily and weekly reports.
-- [x] Email to Text notifications *v2.0*
+- [x] Email to Text notifications - *v2.0*
