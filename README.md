@@ -8,7 +8,7 @@ Important: To eliminate the need for tracking existing orders as well as providi
 
 ## Instructions:
 
-- Create Coinbase Pro API key with View and Trade permissions ONLY and whitelist host IP address.
+- Create Coinbase Pro API key with **View** and **Trade** permissions *ONLY* and whitelist host IP address.
 - Configuration in app.js serves the following usages:
     1. E-mail notification to text via phone's service-provider email address, as well as by authenticated email service like Gmail.
     2. Coinbase PRO API keys to authorize trading algorithm to perform trades.
@@ -24,3 +24,4 @@ Important: To eliminate the need for tracking existing orders as well as providi
 - nodemailer NPM
 
 v2.2 is currently under development but will introduce the advantage of delivering daily and weekly reports.
+- [x] Email to Text notifications *v2.0*
