@@ -1,5 +1,5 @@
-# v2.0 Zephirex.Core | Node.js-based Coinbase PRO automated trading algorithm
-Coinbase Pro Automated Trading Algorithm.
+#Zephirex.Core
+#A Node.js-based Coinbase PRO automated trading algorithm
 
 Robust and stable automated trading software, currently trades in small or large increments, safe parameters allow you to monitor each individual trade live. Reports are still in development and thus must be pulled directly from Coinbase Pro to affirm efficiency and monitor risk.
 
