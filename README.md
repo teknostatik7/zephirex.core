@@ -26,6 +26,6 @@ v2.2 is currently under development but will introduce the advantage of deliveri
 - [ ] Daily and/or weekly reports delivered by email-to-text *v2.2*
 
 ## Installation:
-'''
+```
 npm install zephirex-core
-'''
+```
