@@ -5,7 +5,7 @@ Robust and stable automated trading software, currently trades in small or large
 
 Important: To eliminate the need for tracking existing orders as well as providing the element of surprise, our software performs TAKER orders only, later versions will provide the option for MAKER orders and order management system.
 
-## Instructions:
+## Instructions
 - Create Coinbase Pro API key with **View** and **Trade** permissions *ONLY* and whitelist host IP address.
 - Configuration in app.js serves the following usages:
     1. E-mail notification to text via phone's service-provider email address, as well as by authenticated email service like Gmail.
@@ -13,19 +13,19 @@ Important: To eliminate the need for tracking existing orders as well as providi
     3. Specify currency pairs the software will monitor via websocket.
    
    
-## Requirements:
+## Requirements
 - Node.JS
 - NPM
 - PM2 for monitoring and reporting.
 - coinbase-pro NPM
 - nodemailer NPM
 
-## Features:
+## Features
 v2.2 is currently under development but upon completion; it will introduce the advantage of delivering daily and weekly reports.
 - [x] Email to Text notifications - *v2.0*
 - [ ] Daily and/or weekly reports delivered by email-to-text *v2.2*
 
-## Installation:
+## Installation
 ```
 npm install zephirex-core
 ```
