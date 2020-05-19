@@ -1,7 +1,9 @@
-# Zephirex.Core
+# Zephirex.Core | Node.JS-based Coinbase PRO automated trading algorithm
 Coinbase Pro Automated Trading Algorithm.
 
 Robust and stable automated trading software, currently trades in small or large increments, safe parameters allow you to monitor each individual trade live. Reports are still in development and thus must be pulled directly from Coinbase Pro to affirm efficiency and monitor risk.
+
+Important: To eliminate the need for tracking existing orders as well as providing the element of surprise, our software performs TAKER orders only, later versions will provide the option for MAKER orders and order management system.
 
 Instructions:
 
@@ -19,3 +21,5 @@ Requirements:
 - PM2 for monitoring and reporting.
 - coinbase-pro NPM
 - nodemailer NPM
+
+v2.2 is currently under development but will introduce the advantage of delivering daily and weekly reports.
