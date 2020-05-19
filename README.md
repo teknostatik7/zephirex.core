@@ -23,6 +23,7 @@ Important: To eliminate the need for tracking existing orders as well as providi
 - coinbase-pro NPM
 - nodemailer NPM
 
+## Features:
 v2.2 is currently under development but will introduce the advantage of delivering daily and weekly reports.
 - [x] Email to Text notifications - *v2.0*
 - [ ] Daily and/or weekly reports delivered by email-to-text *v2.2*
