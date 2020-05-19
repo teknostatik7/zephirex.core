@@ -33,10 +33,6 @@ window.pairs = [
 	'LTC-BTC',
 ];
 
-const CoinbasePro = require('coinbase-pro');
-const transporter = require('transporter');
 const director = require('director');
-const publicClient = require('publicClient');
-const websocket = require('websocket');
 
 director();
