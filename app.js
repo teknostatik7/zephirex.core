@@ -3,7 +3,7 @@ process.env.UV_THREADPOOL_SIZE = 128;
 
 // Initiate variables.
 window = {};
-window.Pairs = [];
+window.marketPairs = [];
 window.balances = [];
 window.balanceSheet = '';
 
@@ -17,12 +17,12 @@ window.config = {
 	key: 'coinbase_pro_API_KEY',
 };
 
-window.xFactor = .7; 			// Balance usage strength percentage 0 - 1 ; 1 = 100%
-window.minMultiplier = 1.2; 		// Minimum purchase multiplier
-window.fee = 0.0095; 			// Imaginary fee ; higher == low risk ; lower == more frequent trades. i.e 0.95% fee
-window.delayMs = 1000;			// Allow 1000 ms between trades to avoid limit
+window.xFactor = .74; 				// Balance usage strength percentage 0 - 1 ; 1 = 100%
+window.minMultiplier = 1.4; 	// Minimum purchase multiplier
+window.fee = 0.007; 					// Imaginary fee ; higher == low risk ; lower == more frequent trades;
+window.delayMs = 1000;				// Allow 1000 ms between trades to avoid limit
+window.ws_disable = 0;				
 
-// Pairs the websocket analizes for trading.
 window.pairs = [
 	'BTC-USD',
 	'ETH-USD',
